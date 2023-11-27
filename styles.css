@@ -108,9 +108,22 @@ a {
     color: var(--clr-primary-very-dark-cyan);
 }
 
+.button-a:hover {
+    background: var(--clr-primary-bright-orange);
+}
+
+.button-b:hover {
+    background: var(--clr-primary-dark-cyan);
+}
+
+.button-c:hover {
+    background: var(--clr-primary-very-dark-cyan);
+}
+
+
 button:hover, .button:focus {
-    background-color: black;
-    border: solid 2px aqua;
+    border: solid 2px var(--clr-secondary-very-light-gray);
+    color: var(--clr-secondary-very-light-gray);
 
 }
 

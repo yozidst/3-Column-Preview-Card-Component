@@ -82,7 +82,7 @@ p {
 button {
     margin-top: 80px;
     background-color: var(--clr-secondary-very-light-gray);
-    padding: 14px 32px;
+    padding: 14px 2.2rem;
     border-radius: 100rem;
     font-family: var(--ff-Lexend-Deca);
     font-weight: 400;

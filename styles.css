@@ -36,16 +36,14 @@ body {
 
 .content {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 307px 307px 307px;
     grid-template-rows: 30rem;
-
-    
 }
 
 .card {
     padding-left: 15%;
     padding-top: 15%;
-    padding-right: 15%;
+    padding-right: 16%;
 }
 
 .card-a {
@@ -77,4 +75,38 @@ p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
+}
+
+button {
+    margin-top: 80px;
+    background-color: var(--clr-secondary-very-light-gray);
+    padding: 10px 30px;
+    border-radius: 100rem;
+    font-family: var(--ff-Lexend-Deca);
+    font-weight: 400;
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.button-a {
+    color: var(--clr-primary-bright-orange);
+}
+
+.button-b {
+    color: var(--clr-primary-dark-cyan);
+}
+
+.button-c {
+    color: var(--clr-primary-very-dark-cyan);
+}
+
+button:hover, .button:focus {
+    background-color: black;
+    border: solid 2px aqua;
+
 }

@@ -37,7 +37,7 @@ body {
 .content {
     display: grid;
     grid-template-columns: 307px 307px 307px;
-    grid-template-rows: 30rem;
+    grid-template-rows: 32rem;
 }
 
 .card {
@@ -67,6 +67,7 @@ h1 {
     font-family: var(--ff-Big-Shoulders-Display);
     font-weight: 700;
     padding-bottom: 10px;
+    font-size: 30px;
 }
 
 p {
@@ -80,7 +81,7 @@ p {
 button {
     margin-top: 80px;
     background-color: var(--clr-secondary-very-light-gray);
-    padding: 10px 30px;
+    padding: 20px 32px;
     border-radius: 100rem;
     font-family: var(--ff-Lexend-Deca);
     font-weight: 400;
@@ -91,6 +92,7 @@ button {
 a {
     text-decoration: none;
     padding: 0 5px;
+    font-size: 15px;
 }
 
 .button-a {

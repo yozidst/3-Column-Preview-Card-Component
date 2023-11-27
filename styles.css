@@ -35,6 +35,7 @@ body {
 }
 
 .content {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 307px 307px 307px;
     grid-template-rows: 32rem;
@@ -81,7 +82,7 @@ p {
 button {
     margin-top: 80px;
     background-color: var(--clr-secondary-very-light-gray);
-    padding: 20px 32px;
+    padding: 14px 32px;
     border-radius: 100rem;
     font-family: var(--ff-Lexend-Deca);
     font-weight: 400;
@@ -112,3 +113,43 @@ button:hover, .button:focus {
     border: solid 2px aqua;
 
 }
+
+@media only screen and (max-width: 950px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    
+    .content {
+        margin-top: 58em;
+        margin-bottom: 3em;
+        display: grid;
+        grid-template-columns: 375px;
+        grid-template-rows: 32rem 32rem 32rem;
+    }
+
+    .card-a {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .card-c {
+        border-radius: 0px 0px 10px 10px;  
+    }
+    
+    h1 {
+        padding-bottom: 10px;
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    button {
+        padding: 12px 35px;
+    }
+};

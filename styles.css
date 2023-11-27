@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cabin:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --clr-primary-bright-orange: hsl(31, 77%, 52%);
+    --clr-primary-dark-cyan: hsl(184, 100%, 22%);
+    --clr-primary-very-dark-cyan: hsl(179, 100%, 13%);
+
+    --clr-secondary-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --clr-secondary-very-light-gray: hsl(0, 0%, 95%);
+
+    --ff-Lexend-Deca: "Lexend Deca", Fraunces;
+    --ff-Big-Shoulders-Display: "Big Shoulders Display", san-serif;
+
+
+}
+
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--clr-secondary-very-light-gray);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--clr-secondary-transparent-white);
+    font-family: var(--ff-Lexend-Deca);
+    font-weight: 400;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 30rem;
+
+    
+}
+
+.card {
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-right: 15%;
+}
+
+.card-a {
+    background: var(--clr-primary-bright-orange);
+    border-radius: 10px 0 0px 10px;
+
+}
+
+.card-b {
+    background: var(--clr-primary-dark-cyan);
+}
+
+.card-c {
+    background: var(--clr-primary-very-dark-cyan);
+    border-radius: 0px 10px 10px 0;
+
+}
+
+h1 {
+    color: var(--clr-secondary-very-light-gray);
+    font-family: var(--ff-Big-Shoulders-Display);
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+p {
+    color: var(--clr-secondary-transparent-white);
+    font-family: var(--ff-Lexend-Deca);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
